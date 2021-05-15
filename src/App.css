@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.heading{
+  display: flex;
+}
+.comment-title{
+  display: flex;
+  cursor: pointer;
+  margin: 10px 0 10px 157px;
+  font-weight: bold;
+}
+.story-title{
+  display: flex;
+}
+.story-comment{
+  display: flex;
+  flex-direction:column;
+}
+.comment-description > ul > li{
+  margin: 20px 10px;
+  text-align: left;
+}
